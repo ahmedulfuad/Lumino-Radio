@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Dec 12 00:06:28 BDT 2017
+0.baseType=DIRECTORY
+0.base=C\:\\Soft\\Programming Data\\Android Projects\\LuminoRadio\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+0.path=classes.dex
+0.set=DEX
+count=1
