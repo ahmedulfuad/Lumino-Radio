@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover"
+    tools:context="com.example.fuad.luminoradio.ListActivity">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ltv1"
+        android:text="Play Your Favorite Local Radio Station"
+        android:textSize="40dp"
+        android:layout_marginLeft="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lb1"
+        android:layout_below="@id/ltv1"
+        android:text="ABC Radio"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lb2"
+        android:layout_below="@id/lb1"
+        android:text="Dhaka FM"
+        android:textSize="35dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lb3"
+        android:layout_below="@id/lb2"
+        android:text="Radio Today"
+        android:textSize="35dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lb4"
+        android:layout_below="@id/lb3"
+        android:text="Radio Bhumi"
+        android:textSize="35dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lb5"
+        android:layout_below="@id/lb4"
+        android:text="Capital FM"
+        android:textSize="35dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lb6"
+        android:layout_below="@id/lb5"
+        android:text="Radio Next"
+        android:textSize="35dp"/>
+
+
+</RelativeLayout>

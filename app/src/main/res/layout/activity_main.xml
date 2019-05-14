@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover"
+    tools:context="com.example.fuad.luminoradio.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"
+        android:id="@+id/miv1"
+        android:layout_marginTop="-55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey Listener!"
+        android:layout_below="@id/miv1"
+        android:id="@+id/mtv1"
+        android:textSize="45dp"
+        android:layout_marginTop="-21dp"
+        android:layout_marginLeft="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mb1"
+        android:layout_below="@id/mtv1"
+        android:text="TUNE IN"
+        android:textSize="35dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:layout_below="@id/mb1"
+        android:id="@+id/mtv2"
+        android:textSize="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="165dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mb2"
+        android:layout_below="@id/mtv2"
+        android:text="CREATE AN ACCOUNT"
+        android:textSize="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp" />
+
+</RelativeLayout>
